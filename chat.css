@@ -1,0 +1,40 @@
+body {
+	background-color: #3399CC;
+}
+
+#title {
+	border-bottom: none;
+	width: 50%;
+	margin: auto;
+}
+
+#chatbox {
+	width: 50%;
+	margin: auto;
+	border: 2px solid black;
+	background-color: #B8B;
+	min-width: 300px;
+}
+
+#incoming {
+	border-bottom: 2px solid black;
+}
+
+.clear {
+	clear: both;
+}
+
+#out {
+	float: left;
+	width: calc(100% - 65px);
+	
+}
+
+#send {
+	float: right;
+}
+
+#incoming {
+	height: 500px; 
+	overflow: auto;
+}
